@@ -1,3 +1,13 @@
+# TODO GraphQL API
+
+A GraphQL NEST JS API
+
+## Local Setup
+
+```
+yarn install && yarn start:dev
+```
+
 ## Queries
 
 ### All Todos
