@@ -13,12 +13,20 @@ yarn install && yarn start:dev
 ### All Todos
 
 ```graphql
-{
-  todos{
-    title,
+query todos {
+  todos {
+    title
     description,
-    isComplete,
-    createdAt
+  }
+}
+```
+
+### Todo by ID
+```graphql
+query todo($id:String!){
+  todo(id:$id){
+    title
+    description,
   }
 }
 ```
